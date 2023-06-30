@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+       table{
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+        }
+        caption{
+            text-align: center;
+            background-color: lightgray;
+            padding: 3px ;
+            font-size: 1.2em;
+        
+        }
+       th{
+        border: 1px solid black;
+        background-color: gray;
+        padding: 5px;
+        }
+        tbody >th >td{
+            position: sticky;
+            top: 0px;
+            background-color: lightgray;
+
+        }
+        tbody>tr:nth-child(2n){
+            background-color: lightgray;
+            
+        }
+
+
+       td{
+        border: 1px  solid black;
+       }
+       .num{
+        text-align: right;
+       }
+       .ano{
+        text-align: right;
+       }
+
+    </style>
+</head>
+<body>
+    <h1>tabela exemplo
+    </h1>
+  
+    <table>
+        <caption> economia global segundo Onu</caption>
+        <thead>
+            <tr>
+                <th>paises/Territorios</th>
+                <th>Regiao</th>
+                <th>estivativa </th>
+                <th style="width: 80px;">ano</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Estados Unidos</td>
+                    <td>America</td>
+                    <td class="num">26,854,599</td>
+                    <td class="ano">2023</td>
+                </tr>
+                <tr>
+                    <td>china</td>
+                    <td>Asia</td>
+                    <td class="num">19,912,753</td>
+                    <td class="ano">2023</td>
+                </tr>
+                <tr>
+                    <td>Japao</td>
+                    <td>asia</td>
+                    <td class="num">19,912,753</td>
+                    <td class="ano">2023</td>
+                </tr>
+                <tr>
+                    <td>Alemanha</td>
+                    <td>Europa</td>
+                    <td class="num">4,308,854</td>
+                    <td class="ano">2023</td>
+                </tr>
+                <tr>
+                    <td>India</td>
+                    <td>Asia</td>
+                    <td class="num">3,773,102</td>
+                    <td class="ano" >2023</td>
+                    <tr>
+                        <td>Reino Unido</td>
+                        <td>Europa</td>
+                        <td class="num">3,158,938</td>
+                        <td class="ano">2023</td>
+                    </tr>
+                    <tr>
+                        <td>Franca</td>
+                        <td>Europa</td>
+                        <td class="num">2,923,489</td>
+                        <td class="ano">2023</td>
+                    </tr>
+                    <tr>
+                        <td>Brasil</td>
+                        <td>America</td>
+                        <td class="num">2,234,028</td>
+                        <td class="ano">2023</td>
+                    </tr>
+                </tr>
+                <tfoot>
+                    <tr>
+            </tbody>
+                    <th> total </th>
+                    <th>economia mundial</th>
+                    <th class="num">58,457945</th>
+                    <th>2023</th>
+                    
+                </tr>
+            </tfoot>
+        </thead>
+    </table>
+   
+  
+</body>
+</html>
